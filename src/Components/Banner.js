@@ -18,7 +18,7 @@ useEffect(() => {
 
   fetchData();
 }, [])
-console.log(movie);
+
 
     function truncate(string, n){
         return string?.length > n ? string.substr(0, n-1) + "..." : string;
@@ -32,7 +32,7 @@ console.log(movie);
     }}>
         <div className='banner_contents'>
             <h1 className="banner_title">
-              {movie?.original_name || movie?.title || movie?.name}
+              { movie?.title ||movie?.original_name ||movie?.name}
               </h1>
             <div className="banner_buttons">
                 <button className="banner_button">Play</button>

@@ -1,0 +1,95 @@
+.loginScreen{
+    position:relative;
+    background: url("https://external-preview.redd.it/B6MrrY-dyD1lnvvrb2BCISx1xQwGx-e7pjm-qeXwAkE.jpg?auto=webp&s=ade83a5a759042ffed5324e5172c9a59a27aaaa9") center  no-repeat;
+    background-size:100%;
+    max-width: 100%;
+    
+}
+
+.loginScreen_button{
+    position:fixed;
+    right:0;
+    font-size: 1rem;
+    color:#fff;
+    background-color: #e50915;
+    padding: 7px 17px ;
+    padding-top:9px;
+    border:none;
+    cursor: pointer;
+    font-weight: 450;
+    margin-top:42px;
+    margin-right:57px;
+    border-radius: 3px;
+     
+}
+.loginScreen_logo{
+    position :fixed;
+    
+    width:178px;
+    object-fit: contain;
+    top:7px;
+    margin-top:30px;
+    margin-left:50px
+}
+.loginScreen_gradient{
+    width:100%;
+    z-index:1;
+    height:100vh ;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(
+        to top,
+        rgba(0,0,0,0.8) 0,
+        rgba(0,0,0,0)60%,
+        rgba(0,0,0,0.8)100%
+    );
+
+}
+.loginScreen_body{
+    position:absolute;
+    width:100%;
+    top:35%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index:1 ;
+    color:#fff;
+    padding:1px;
+  
+    
+}
+.loginScreen_body >h1{
+    display:inline;
+    font-size: 3.9rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.loginScreen_body >h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.loginScreen_body>h3{
+    font-size:1.3rem;
+    font-weight:400;
+    margin-bottom: 20px;
+}
+.loginScreen_input> form >input{
+    padding: 20px ;
+    outline-width: 0;
+    height: 30px;
+    width: 30%;
+    border: none;
+    max-width: 800px;
+}
+.loginScreen_getStarted{
+    
+    padding : 10px 30px;
+    color:#fff;
+    background-color: #e50915;
+    border:none;
+    font-weight: 500;
+    cursor: pointer;
+    font-size: xx-large;
+    padding-bottom: 24px;
+
+}
