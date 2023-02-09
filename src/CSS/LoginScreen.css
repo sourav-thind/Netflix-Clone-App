@@ -1,8 +1,8 @@
 .loginScreen{
     position:relative;
     background: url("https://external-preview.redd.it/B6MrrY-dyD1lnvvrb2BCISx1xQwGx-e7pjm-qeXwAkE.jpg?auto=webp&s=ade83a5a759042ffed5324e5172c9a59a27aaaa9") center  no-repeat;
-    background-size:100%;
-    max-width: 100%;
+    background-size:cover;
+    height:100%
     
 }
 
@@ -53,9 +53,8 @@
     text-align: center;
     z-index:1 ;
     color:#fff;
-    padding:1px;
-  
-    
+    left:0 ;
+    right:0; 
 }
 .loginScreen_body >h1{
     display:inline;
@@ -83,7 +82,7 @@
 }
 .loginScreen_getStarted{
     
-    padding : 10px 30px;
+    padding : 11px 30px;
     color:#fff;
     background-color: #e50915;
     border:none;
@@ -93,3 +92,7 @@
     padding-bottom: 24px;
 
 }
+.loginScreen_getStarted_text{
+   top:60px
+}
+

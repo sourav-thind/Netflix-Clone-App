@@ -10,7 +10,9 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
             setmovies(request.data.results);
             return request;
         }
-
+        
+        
+       
         fetchData();
     }, [fetchUrl])
     const base_url= "https://image.tmdb.org/t/p/original/";
@@ -31,6 +33,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
                     src={`${base_url}${isLargeRow ? movie.poster_path : movie.backdrop_path}`}
                     alt={movie.name}/>
                 )
+                
                 
                 )
                 }
