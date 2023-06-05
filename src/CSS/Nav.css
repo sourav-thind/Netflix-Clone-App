@@ -4,7 +4,7 @@
     width:100%;
     padding:20px;
     height:50px;
-    z-index:1;
+    z-index:2;
     /*  Animation css*/
     transition-timing-function: ease-in;
     transition:all 0.5s;
@@ -24,7 +24,7 @@
      object-fit: contain;
      cursor: pointer;
      padding-left : 20px;
-
+   
 }
 
 .nav_avatar{
